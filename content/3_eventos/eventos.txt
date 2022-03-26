@@ -1,0 +1,44 @@
+Title: EL MEJOR MAGO PARA COMUNIONES
+
+----
+
+stat1: +100
+
+----
+
+statTitle1: Eventos
+
+----
+
+stat2: +55 
+
+----
+
+statTitle2: Projectos
+
+----
+stat3: 100%
+
+----
+
+statTitle3: Clientes Satisfechos
+
+----
+
+stat4: +50
+
+----
+
+statTitle4: Niggers
+
+----
+
+texto:  El mundo de las comuniones está lleno de empresas de animación que, o bien no dan buena imagen, o
+        bien no dan la talla. Muchas veces cogen a chavales jovenes que recién sacado el titulo de monitor
+        le ponen a hacer el payado o de mago sin tener ni idea de lo que se necesita.
+
+        Un mago profesionalte evitará problemas y, si tiene experiencia además conseguirá que la comunión
+        sea recordada durante muchos años y, para bien.
+
+        Soy Nacho Fenollar, y quiero convertirme en el mejor mago para comuniones de España y, para ello,
+        tengo que conseguir, no solo sorprender y divertir a los niños sino también a todos tus invitados
