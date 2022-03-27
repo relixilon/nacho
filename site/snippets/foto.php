@@ -8,7 +8,5 @@
       <span class="w3-xxlarge w3-wide"><?= $data->title() ?></span><br>
     </div>
   </div>
-
   </div>
-
 </section>
