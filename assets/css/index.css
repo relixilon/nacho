@@ -6,14 +6,12 @@ body {
 
 .fixed {
   position: fixed;
-  z-index: 1;
+  z-index: -10000;
   left: 0;
   top: 0;
 }
 
 .scroll {
-  position: relative;
-  z-index: 2;
   margin: 100vh 0 0 0;
 }
 
@@ -164,5 +162,191 @@ body {
 
 .info-image:hover {
   width: 50vw;
+}
+
+.eventos {
+  padding: 10vh 0 10vh 0;
+  background-color: #211f23;
+}
+
+.eventos-content {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.eventos-title {
+  padding: 4vh 4vw 4vh 4vw;
+  width: 30vw;
+  color: #ffffff;
+  opacity: 0.8;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font: italic normal 300 3rem MrEavesModOT;
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+}
+
+.eventos-text {
+  text-align: center;
+  width: 50vw;
+  margin: 14vh 0 0 0;
+  color: #ffffff;
+  font: normal 100 1.5rem MrEavesModOT;
+  letter-spacing: 2px;
+  line-height: 80px;
+}
+
+.eventos-button {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30vw;
+  height: 10vh;
+  border: 2px solid #ffffff;
+  margin: 8vh 0 0 0;
+  background-color: #ffffff;
+  font: normal normal bold 2.2rem MrEavesModOT;
+  letter-spacing: 2.27px;
+  text-decoration: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.eventos-button:hover {
+  color: #ffffff;
+  background-color: #211f23;
+  -webkit-box-shadow: 15px 15px;
+          box-shadow: 15px 15px;
+  cursor: pointer;
+}
+
+.videos {
+  background-color: #ffffff;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4vh 0 0 0;
+}
+
+.videos-title {
+  margin: 0;
+  padding: 4vh 4vw 4vh 4vw;
+  width: 50vw;
+  color: #211f23;
+  opacity: 0.8;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font: italic normal 300 3rem MrEavesModOT;
+}
+
+.videos-container {
+  margin: 8vh 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.videos-youtube {
+  width: 40vw;
+  height: 50vh;
+}
+
+.adultos {
+  width: 100vw;
+  padding: 0 0 10vh 0;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.adultos-grid {
+  margin: 0 0 0 10vw;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: [col1] 40vh [col2] 40vw [col3] 30vw [colend];
+      grid-template-columns: [col1] 40vh [col2] 40vw [col3] 30vw [colend];
+  -ms-grid-rows: [row1] 10vh [row2] auto [rowend];
+      grid-template-rows: [row1] 10vh [row2] auto [rowend];
+}
+
+.adultos-image {
+  -ms-grid-column: col1;
+      grid-column-start: col1;
+  grid-column-end: col3;
+  -ms-grid-row: row1;
+      grid-row-start: row1;
+  grid-row-endadultos-image: rowend;
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 100vh;
+  width: 50vw;
+}
+
+.adultos-container {
+  -ms-grid-column: col2;
+      grid-column-start: col2;
+  grid-column-end: col3;
+  -ms-grid-row: row2;
+      grid-row-start: row2;
+  grid-row-endadultos-image: rowend;
+  border: 20px solid #211F23;
+  background-color: #ffffff;
+}
+
+.adultos-title {
+  margin: 0;
+  padding: 4vh 4vw 4vh 4vw;
+  color: #211f23;
+  opacity: 0.8;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font: italic normal 300 2.5rem MrEavesModOT;
+}
+
+.adultos-text {
+  text-align: center;
+  margin: 5vh;
+  color: #211f23;
+  font: normal 100 1.2rem MrEavesModOT;
+  letter-spacing: 2px;
+  line-height: 60px;
 }
 /*# sourceMappingURL=index.css.map */

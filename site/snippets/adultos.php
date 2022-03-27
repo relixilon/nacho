@@ -1,7 +1,9 @@
-<section class="paragraph w3-container " id="info">
-  <h3 class="w3-center paragraph-title"><?= $data->title() ?></h3>
-  <div class="paragraph-container">
-    <img src="<?= $data->image()->url() ?>" class="w3-image paragraph-image" alt="Photo of Me" width="500" height="333">
-    <p class="paragraph-text"><?= $data->text() ?></p>
+<section class="adultos">
+  <div class="adultos-grid id=" info">
+    <img class="adultos-image" src="<?= $data->image()->url() ?>" alt="Photo of Me" width="500" height="333">
+    <div class="adultos-container">
+      <h3 class="adultos-title"><?= $data->title() ?></h3>
+      <p class="adultos-text"><?= $data->text() ?></p>
+    </div>
   </div>
 </section>

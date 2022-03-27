@@ -5,13 +5,11 @@ body
 
 .fixed
   position: fixed
-  z-index: 1
+  z-index: -10000
   left: 0
   top: 0
 
 .scroll
-  position: relative
-  z-index: 2
   margin: 100vh 0 0 0
 
 .intro
@@ -119,3 +117,133 @@ body
     transition: 1s
     &:hover
       width: 50vw
+
+.eventos
+  padding: 10vh 0 10vh 0
+  background-color: #211f23
+
+  &-content
+    width: 100vw
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+  &-title
+    padding: 4vh 4vw 4vh 4vw
+    width: 30vw
+    color: #ffffff
+    opacity: 0.8
+    text-align: center
+    text-transform: uppercase
+    letter-spacing: 10px
+    font: italic normal 300 3rem MrEavesModOT
+    border-top: 1px solid #707070
+    border-bottom: 1px solid #707070
+
+  &-text
+    text-align: center
+    width: 50vw
+    margin: 14vh 0 0 0
+    color: #ffffff
+    font: normal 100 1.5rem MrEavesModOT
+    letter-spacing: 2px
+    line-height: 80px
+
+  &-button
+    text-align: center
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 30vw
+    height: 10vh
+    border: 2px solid #ffffff
+    margin: 8vh 0 0 0
+    background-color: #ffffff
+    font: normal normal bold 2.2rem MrEavesModOT
+    letter-spacing: 2.27px
+    text-decoration: none
+    transition: 0.25s
+
+    &:hover
+      color: #ffffff
+      background-color: #211f23
+      box-shadow: 15px 15px
+      cursor: pointer
+
+.videos
+  background-color: #ffffff
+  height: 100vh
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding: 4vh 0 0 0
+
+  &-title
+    margin: 0
+    padding: 4vh 4vw 4vh 4vw
+    width: 50vw
+    color: #211f23
+    opacity: 0.8
+    text-align: center
+    text-transform: uppercase
+    letter-spacing: 10px
+    font: italic normal 300 3rem MrEavesModOT
+
+  &-container
+    margin: 8vh 0 0 0
+    display: flex
+    width: 90vw
+    justify-content: space-between
+
+  &-youtube
+    width: 40vw
+    height: 50vh
+
+.adultos
+  width: 100vw
+  padding: 0 0 10vh 0
+  background-color: #ffffff
+  display: flex
+  justify-content: center
+
+  &-grid
+    margin: 0 0 0 10vw
+    display: inline-grid
+    grid-template-columns: [col1] 40vh [col2] 40vw [col3] 30vw [colend]
+    grid-template-rows: [row1] 10vh [row2] auto [rowend]
+
+  &-image
+    grid-column-start: col1
+    grid-column-end: col3
+    grid-row-start: row1
+    grid-row-endadultos-image: rowend
+    object-fit: fill
+    height: 100vh
+    width: 50vw
+
+  &-container
+    grid-column-start: col2
+    grid-column-end: col3
+    grid-row-start: row2
+    grid-row-endadultos-image: rowend
+    border: 20px solid #211F23
+    background-color: #ffffff
+
+  &-title
+    margin: 0
+    padding: 4vh 4vw 4vh 4vw
+    color: #211f23
+    opacity: 0.8
+    text-align: center
+    text-transform: uppercase
+    letter-spacing: 10px
+    font: italic normal 300 2.5rem MrEavesModOT
+
+  &-text
+    text-align: center
+    margin: 5vh
+    color: #211f23
+    font: normal 100 1.2rem MrEavesModOT
+    letter-spacing: 2px
+    line-height: 60px
